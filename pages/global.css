@@ -1,3 +1,14 @@
+:root {
+  --primary-900: #04142d;
+  --primary-800: #050e40;
+  --primary-700: #130940;
+  --secondary-900: #042d24;
+  --secondary-800: #054033;
+  --light-grey: #ccc;
+  --white: #ffffff;
+  --red: #ff0000;
+}
+
 html,
 body {
   padding: 0;

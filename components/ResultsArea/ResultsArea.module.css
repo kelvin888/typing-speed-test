@@ -1,0 +1,18 @@
+.resultsArea {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 20px;
+  gap: 2rem;
+  color: var(--white);
+}
+
+.accuracyContainer,
+.speedContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width) {
+}

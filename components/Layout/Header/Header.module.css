@@ -1,0 +1,5 @@
+.header {
+  background-color: var(--primary-800);
+  color: var(--white);
+  padding: 1rem;
+}

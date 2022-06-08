@@ -1,0 +1,14 @@
+.main {
+  background: var(--secondary-900);
+  flex: 1 0 auto;
+  padding: 1rem;
+  width: 90%;
+  margin: 2rem 0px;
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .main {
+    width: 800px;
+  }
+}

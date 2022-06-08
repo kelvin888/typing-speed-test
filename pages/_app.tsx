@@ -1,8 +1,17 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import type { AppProps } from "next/app";
+import { Footer } from "../components/Layout/Footer/Footer";
+import { Header } from "../components/Layout/Header/Header";
+import TypingCtxProvider from "../context/typing-speed-ctx";
+import "./global.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <TypingCtxProvider>
+      <Header />
+      <Component {...pageProps} />
+      <Footer />
+    </TypingCtxProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
